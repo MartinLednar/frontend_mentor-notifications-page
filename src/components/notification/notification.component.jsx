@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import actionsTexts from "../../utils/actionsTexts";
-import { BaseNotification, CommentNotification, MessageNotification } from "./notification.styles";
+import { BaseNotification, CommentNotification, MessageNotification, LoadingNotification } from "./notification.styles";
 import CustomLink from "../CustomLink/custom-link.component";
 import calcPassedTime from "../../utils/calcPassedTime";
 
@@ -14,7 +14,7 @@ const getNotificationStyle = (type) =>
     follow: BaseNotification,
   }[type]);
 
-const Notification = ({ data }) => {
+export const Notification = ({ data }) => {
   const NotificationStyle = getNotificationStyle(data.type);
 
   return (
@@ -52,4 +52,15 @@ const Notification = ({ data }) => {
   );
 };
 
-export default Notification;
+export const NotificationLoading = ({ textWidth, dateWidth }) => {
+  return (
+    <LoadingNotification textWidth={textWidth} dateWidth={dateWidth}>
+      <div className="loading-dash" />
+      <span className="profile-picture" />
+      <div className="notification-title-box">
+        <div></div>
+        <p></p>
+      </div>
+    </LoadingNotification>
+  );
+};

@@ -1,12 +1,19 @@
-import "./notifications-box.styles.scss";
-import Notification from "../notification/notification.component";
+import { Notification } from "../notification/notification.component";
+import LoadingNotifications from "../loading/loading.component";
+import { Fragment } from "react";
 
 const NotificationsBox = ({ data }) => {
   return (
     <div className="notifications-box">
-      {data.map((notification, i) => (
-        <Notification key={i} data={notification} />
-      ))}
+      {data ? (
+        <Fragment>
+          {data.map((notification, i) => (
+            <Notification key={i} data={notification} />
+          ))}
+        </Fragment>
+      ) : (
+        <LoadingNotifications />
+      )}
     </div>
   );
 };

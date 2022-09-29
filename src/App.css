@@ -67,32 +67,14 @@ header p {
   margin-top: 30px;
 }
 
-.link {
-  text-decoration: none;
-  font-weight: 800;
-  word-break: break-all;
+@media screen and (max-width: 650px) {
+  .content-wrapper {
+    padding: 0;
+  }
 }
 
-.link-dark {
-  color: var(--very-dark-blue);
-}
-
-.link-dark:hover {
-  color: var(--blue);
-}
-
-.link-light {
-  color: var(--dark-grayish-blue);
-}
-
-.link-light:hover {
-  color: var(--blue);
-}
-
-.link-blue {
-  color: var(--blue);
-}
-
-.link-thin {
-  font-weight: 300;
+@media screen and (max-width: 490px) {
+  .notifications-contianer {
+    padding: 40px 15px 15px;
+  }
 }
