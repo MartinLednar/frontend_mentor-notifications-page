@@ -1,0 +1,117 @@
+
+{
+  /* <div className="notifications-box">
+<div className="notification unread">
+  <img className="profile" src="/imgs/avatar-mark-webber.webp" alt="Profile" />
+  <div className="notification-title-box">
+    <div>
+      <a href="#" className="link link-dark">
+        Mark Webber
+      </a>{" "}
+      {actionsMessages["reaction"]}{" "}
+      <a href="#" className="link link-light">
+        My first tournament today!
+      </a>{" "}
+      <span className="dot"></span>
+    </div>
+    <p>1m ago</p>
+  </div>
+</div>
+
+<div className="notification unread">
+  <img className="profile" src="/imgs/avatar-angela-gray.webp" alt="Profile" />
+  <div className="notification-title-box">
+    <div>
+      <a href="#" className="link link-dark">
+        Angela Gray
+      </a>{" "}
+      followed you <span className="dot"></span>
+    </div>
+    <p>5m ago</p>
+  </div>
+</div>
+
+<div className="notification unread">
+  <img className="profile" src="/imgs/avatar-jacob-thompson.webp" alt="Profile" />
+  <div className="notification-title-box">
+    <div>
+      <a href="#" className="link link-dark">
+        Jacob Thompson
+      </a>{" "}
+      {actionsMessages["join"]}{" "}
+      <a href="#" className="link link-blue">
+        Chess Club
+      </a>{" "}
+      <span className="dot"></span>
+    </div>
+    <p>5m ago</p>
+  </div>
+</div>
+
+<div className="notification message">
+  <img className="profile" src="/imgs/avatar-rizky-hasanuddin.webp" alt="Profile" />
+  <div className="notification-title-box">
+    <div>
+      <a href="#" className="link link-dark">
+        Rizky Hasanuddin
+      </a>{" "}
+      {actionsMessages["message"]} <span className="dot"></span>
+    </div>
+    <p>5m ago</p>
+  </div>
+
+  <p className="message-text">
+    Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+  </p>
+</div>
+
+<div className="notification comment">
+  <img className="profile" src="/imgs/avatar-kimberly-smith.webp" alt="Profile" />
+  <div className="notification-title-box">
+    <div>
+      <a href="#" className="link link-dark">
+        Kimberly Smith
+      </a>
+      {actionsMessages["commentPicture"]} <span className="dot"></span>
+    </div>
+    <p>5m ago</p>
+  </div>
+
+  <img src="/imgs/image-chess.webp" alt="Chess player" className="post-image" />
+</div>
+
+<div className="notification">
+  <img className="profile" src="/imgs/avatar-nathan-peterson.webp" alt="Profile" />
+  <div className="notification-title-box">
+    <div>
+      <a href="#" className="link link-dark">
+        Nathan Peterson
+      </a>
+      {actionsMessages["reaction"]}{" "}
+      <a href="#" className="link link-light">
+        5 end-game strategies to increase your win rate
+      </a>
+      <span className="dot"></span>
+    </div>
+    <p>2 weeks ago</p>
+  </div>
+</div>
+
+<div className="notification">
+  <img className="profile" src="/imgs/avatar-anna-kim.webp" alt="Profile" />
+  <div className="notification-title-box">
+    <div>
+      <a href="#" className="link link-dark">
+        Anna Kim
+      </a>
+      {actionsMessages["leave"]}
+      <a href="#" className="link link-blue">
+        Chess Club
+      </a>{" "}
+      <span className="dot"></span>
+    </div>
+    <p>2 weeks ago</p>
+  </div>
+</div>
+</div> */
+}
