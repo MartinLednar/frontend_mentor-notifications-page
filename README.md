@@ -1,5 +1,5 @@
-# REST Countries API with color theme switcher
+# Notifications Page
 
-This project was built with React.js and CSS. This is a challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca).
+This project was built with React.js and CSS. This is a challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC).
 
-#### You can find the live website here : https://rest-countries-lednar.netlify.app/
+#### You can find the live website here : https://notifications-page-lednar.netlify.app
